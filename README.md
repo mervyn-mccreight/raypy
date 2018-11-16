@@ -10,5 +10,12 @@ As this was just an explorative task during an university course the code neithe
 `// TODO`
 
 ## Usage
-`// TODO`
+### Background
+This project uses [pipenv](https://github.com/pypa/pipenv) for dependency and environment management.
+
+### Prerequisites
+To install all required dependencies in an environment for this project as specified, invoke `pipenv install`.
+
+### Execution
+Run `pipenv run python ray.py` (optionally with provided arguments and options) to run the program. 
 
