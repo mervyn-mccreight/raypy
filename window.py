@@ -86,7 +86,7 @@ class Window(Frame):
 
 	def __draw(self):
 		from processes import BlockProcess
-		from multiprocessing import Queue
+		from queue import Queue
 		self.finishedQueue = Queue()
 		self.dataQueue = Queue()
 		self.finishedThreads = 0
